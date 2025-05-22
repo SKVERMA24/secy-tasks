@@ -1,0 +1,194 @@
+body{
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><g fill="%230ABEB5"><path d="M0 0v100c250 0 375-24 500-48 125 24 250 48 500 48V0H0Z" opacity=".5"></path><path d="M0 0v4c250 0 375 24 500 48C625 28 750 4 1000 4V0H0Z"></path></g></svg>');
+  background-repeat: no-repeat;
+    /* background-color: linear-gradient(145deg,black,rgb(0, 0, 76),rgb(60, 0, 76)); */
+    background-color: rgb(0, 11, 52);
+   
+}
+
+
+.intro{
+  font-size: 3rem;
+ margin-top: 110px;
+  
+  background: rgb(255, 255, 255);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  background-clip: text;
+  color: transparent;
+  font-family: "Audiowide", sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+margin-top: 90px;
+margin-bottom: 90px;
+}
+.project_1{
+  width: 190px;
+  height: 190px;
+  background: url(Screenshot\ 2025-05-21\ 153108.png);
+  background-size: contain;
+
+  /*style*/
+ 
+  border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border: 2px solid cyan;
+box-shadow: 0px 0px 32px #09b7b1;
+}
+.project_2{
+  width: 190px;
+  height: 190px;
+  background: url(Screenshot\ 2025-05-21\ 153120.png);
+  background-size: contain;
+  border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border: 2px solid cyan;
+box-shadow: 0px 0px 32px #09b7b1;
+}.project_3{
+ 
+  width: 190px;
+  height: 190px;
+  background: url(Screenshot\ 2025-05-21\ 153135.png);
+  background-size: contain;
+  border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border: 2px solid cyan;
+box-shadow: 0px 0px 32px #09b7b1;
+}.project_4{
+  width: 190px;
+  height: 190px;
+  background: url(Screenshot\ 2025-05-21\ 153146.png);
+  background-size: cover;
+  border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border: 2px solid cyan;
+box-shadow: 0px 0px 32px #09b7b1;
+ 
+}.project_5{
+  width: 190px;
+  height: 190px;
+  background: url(Screenshot\ 2025-05-21\ 153156.png);
+  background-size: contain;
+  border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border: 2px solid cyan;
+box-shadow: 0px 0px 32px #09b7b1;
+}
+.container_data{
+  display: flex;
+ flex-direction: column;
+  justify-content:space-evenly;
+margin-top: 90px;
+
+
+
+
+}
+.data_p_1{
+  display: flex;
+ justify-content: space-evenly;
+  width: fit-content;
+  height:fit-content;
+margin: 40px;
+ background: white;
+ padding: 40px;
+   border-bottom-right-radius: 42px;
+    border-top-left-radius: 42px;
+    background: #00206b44;
+      font-family: "PT Mono", monospace;
+      border: 2px solid black;
+      box-shadow: 0px 0px 32px #099db7;
+}
+.data1{
+  width:fit-content;
+  margin: 50px;
+  color: aliceblue;
+  font-size: 1.3rem;
+}
+.p_img1{
+  width: 290px;
+  height: 230px;
+  background: url(Screenshot\ 2025-05-21\ 153108.png);
+  background-size: contain;
+
+  /*style*/
+  border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border: 2px solid rgb(106, 0, 255);
+box-shadow: 0px 0px 32px  rgb(106, 0, 255);
+}
+.p_img2{
+ width: 290px;
+  height: 230px;
+  background: url(Screenshot\ 2025-05-21\ 153120.png);
+  background-size: contain;
+
+  /*style*/
+  border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+  border: 2px solid rgb(106, 0, 255);
+box-shadow: 0px 0px 32px  rgb(106, 0, 255);
+}
+.p_img3{
+ width: 450px;
+  height: 290px;
+  background: url(Screenshot\ 2025-05-21\ 153135.png);
+  background-size: cover;
+
+  /*style*/
+  border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+  border: 2px solid rgb(106, 0, 255);
+box-shadow: 0px 0px 32px  rgb(106, 0, 255);
+}
+.p_img4{
+  width: 290px;
+  height: 290px;
+  background: url(Screenshot\ 2025-05-21\ 153146.png);
+  background-size: contain;
+
+  /*style*/
+  border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+  border: 2px solid rgb(106, 0, 255);
+box-shadow: 0px 0px 32px  rgb(106, 0, 255);
+}
+.p_img5{
+  width: 290px;
+  height: 230px;
+  background: url(Screenshot\ 2025-05-21\ 153156.png);
+  background-size: contain;
+
+  /*style*/
+  border-top-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+     border: 2px solid rgb(106, 0, 255);
+box-shadow: 0px 0px 32px  rgb(106, 0, 255);
+}
+
+#next{
+  padding: 15px;
+  font-size: 1.5rem;
+  margin: 40px;
+  border-radius: 10px;
+  padding-left: 50px;
+   padding-right: 50px;
+  text-align: center;
+  color: white;
+  background: rgb(0, 0, 95);
+  border: 2px solid #09b7b1;
+  box-shadow: black;
+ position: relative;
+ margin-left: 700px;
+ cursor: pointer;
+
+}
+
+ #next:hover{
+background: #09b7b1;
+
+ }

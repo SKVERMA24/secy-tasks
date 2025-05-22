@@ -1,0 +1,163 @@
+body {
+  /* background: url(newbg.jpg); */
+ background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><g fill="%2357E7EA"><path d="M0 1v99c134.3 0 153.7-99 296-99H0Z" opacity=".5"></path><path d="M1000 4v86C833.3 90 833.3 3.6 666.7 3.6S500 90 333.3 90 166.7 4 0 4h1000Z" opacity=".5"></path><path d="M617 1v86C372 119 384 1 196 1h421Z" opacity=".5"></path><path d="M1000 0H0v52C62.5 28 125 4 250 4c250 0 250 96 500 96 125 0 187.5-24 250-48V0Z"></path></g></svg>'); 
+
+  background-repeat: no-repeat;
+  background-color: rgb(7, 14, 38);
+  
+}
+
+.typewriter h1 {
+  overflow: hidden;
+  border-right: 0.15em solid #ff7e5f;
+  white-space: nowrap;
+  animation: typing 5s steps(215, end) infinite, blink 0.5s step-end infinite;
+  width: 0;
+  font-size: 2em;
+
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+  color: transparent;
+  font-family: "Audiowide", sans-serif;
+ 
+  margin: 0;
+  margin-left: 500px;
+}
+
+#container {
+  padding: 20px;
+  height: 40px;
+
+  
+  margin-left: 30px;
+    
+  margin-right: 30px;
+    
+  margin-top: 230px;
+    
+  margin-bottom: 40px;
+  border:2px solid #09b7b1;
+ box-shadow: 0px 0px 32px #09b7b1;
+  background: rgb(20, 24, 41);
+   border-radius: 200px;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 25%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.card1 {
+  display: flex;
+  justify-content: space-evenly;
+  position: static;
+  width: 89vw;
+  height: fit-content;
+padding-left: 40PX;
+padding-right: 40PX;
+  margin-top: 20px;
+  margin-left: 20px;
+    margin-left: 30px;
+  margin-bottom: 40px;
+  border:2px solid #09b7b1;
+  border-radius: 20px;
+  background: #2122286d;
+  backdrop-filter: blur(15px);
+  box-shadow: 15px 15px 15px rgba(110, 110, 110, 0.495);
+  color: rgb(203, 210, 217);
+
+
+  border: 12px linear-gradient(90deg, #c910ad, #3709b7);
+box-shadow: 0px 0px 32px #09b7b1;
+
+}
+#next{
+  padding: 15px;
+  font-size: 1.5rem;
+  margin: 40px;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+  background: rgb(0, 0, 95);
+  border: 2px solid #09b7b1;
+  box-shadow: black;
+ position: relative;
+ margin-left: 700px;
+ cursor: pointer;
+
+}
+
+ #next:hover{
+background: #09b7b1;
+transform: translate3D(10px);
+
+ }
+#name {
+  font-weight: bold;
+  background: linear-gradient(90deg, #b5179e, #3709b7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  background-clip: text;
+  color: transparent;
+  font-size: 3em;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 600;
+}
+.content {
+  font-size: 1.5em;
+text-align: justify;
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+#msg {
+  font-size: 1.8em;
+
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  background-clip: text;
+  color: transparent;
+  font-family: "Audiowide", sans-serif;
+}
+
+
+
+.intro{
+  font-size: 2em;
+ margin-top: 90px;
+  
+  background: rgb(174, 244, 255);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  background-clip: text;
+  color: transparent;
+  font-family: "Audiowide", sans-serif;
+}
+.profile{
+  width: 800px;
+  height: auto;
+  justify-content: center;
+  margin-left: 400px;
+  border: 2px solid cyan;
+  border-bottom-left-radius: 22px;
+    border-top-right-radius: 22px;
+}
